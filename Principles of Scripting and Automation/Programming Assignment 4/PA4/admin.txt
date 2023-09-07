@@ -1,0 +1,42 @@
+AIST 2120:  The HOP ADMISSIONS INFORMATION
+Programming Assignment 4
+
+NAMES, BIRTHDATES, PHONE NUMBERS, EMAIL ADDRESSES
+
+Teeny Won	12/10/2021 				yes
+Grace Hopper	hoppergrace@usn.org 			no, not M - Z
+Justin Henry	juhenry@augusta.edu 			no, not org or com
+Rey Skywalker	reySky@theForce.org			yes
+Pink Panther	fakeemail.net				no invalid
+Col. Sam Flag	anotherFakeEmail@gmail			no invalid
+Edsger Dijkstra	01/08/1937, zDijkstraedsgar@algorithm.com 	yes
+Justin Case	15/36/1718 				no invalid month and day
+Ida Gno		3/33/1999 				no invalid day
+Izzy Forged	1/2/2000		bogus@gmail 		good date; invalid email
+Stan Tahl	12/9/1906, stan@giant.com  		yes 
+SCCS		ccs@augusta.edu				no, not org or com
+Red Baron	RedBaron@Biplane.com			yes
+
+123-456-WINN	123-456-7890	888.555.1234	0444-555-666123
+abc-123-4567	800-567-456	(800) 867-5309	867-5309
+(706)555-1212
+
+asd;fopqijponclkxzm;lknsdaoijpg12/7/1941as;djinb;laksnmv
+asdfom;lkncxzasdoifj;alkfja;lskmc;lxkzpoijg;lajnfjpwo432
+p934jt9t3j59jgpsd0s98vjxlkjnwporj6/6/1944ajfd9ijo4j;2oi3
+asdpfoinbcx;lknpzoixcjvpoijweq-9rijf098ufc8jxz;lkcmnvpoa
+qj9paocivjczpoxic10/31/2021ajsidjvojpcxozijc;lkekjlmnfer
+asdnmfoiclzvkxcn;kjrht9-32843rur8ufd-s98ijf8uur8jpfdsjjf
+aspdovihjpoxc1/1/111asdfnoicjk'zlxknjcvpoiwj0e9rfi-9jaoi
+
+ads;vlkzxmc-9vpz[oxicnmpw;oeerq111-222-3333qwepoijfd[apf
+asdfas;kjojas[odvijas9djap[oeijrwqpoeiqjr09ujdaijvpocj;x
+asdfj321-654-11qqfasdmpoijzcxpbouh8jpqoiwje48ut42u88u485
+asdjpoijgaposfiagsdf800-567-456asd;l;fkjs;alknj;lggjjopf
+
+Happy Harvesting!
+
+This file was updated on 2-3-2022.
+
+
+

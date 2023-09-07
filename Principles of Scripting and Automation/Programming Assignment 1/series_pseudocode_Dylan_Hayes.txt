@@ -1,0 +1,37 @@
+SET seconds to 0
+loop
+	try
+		input "How many seconds (integar) has the computer virus been replicating? " to seconds
+		if seconds >= 0
+			break from loop
+		else
+			print "Input must be a non-negative integar"
+	catch ValueError
+		print "Input must be a non-negative integar"
+end loop
+
+
+function calulate_size(seconds)
+	SET x to 1
+	SET mem to 1024
+	
+	print ""
+	print "Calculating virus memory utilization after " + seconds + " seconds."
+	
+	loop while x <= seconds
+		if seconds == 0
+			print "\tCalculating virus memory utilization after 0 seconds."
+			break from loop
+		else
+			set mem to mem * 2
+			print "\tAt t+" + x + ", memory calculation double to " + mem
+			x = x + 1
+	end loop
+	
+	print ""
+	print "\tVirual memory utilization calculation complete!"
+	return mem
+end function
+
+
+set result to the return value of calculate_size(seconds)

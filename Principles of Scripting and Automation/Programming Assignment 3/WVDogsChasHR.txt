@@ -1,0 +1,6 @@
+Snoopy			Pilot				$100/hour
+Charlie Brown		Greeter				$10/hour
+Lucy			Counselor			$40/hour
+Linus			Musical Ambiance Manager		$30/hour
+Franklin			Business Operations		$40/hour
+DROP TABLE salary_table;

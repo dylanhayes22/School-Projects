@@ -1,0 +1,29 @@
+CHANGE current working directory to desktop_path
+
+SET csv_filename to "CurrentEmpList.csv"
+SET json_filename to "CurrentEmpList_Date.json"
+
+OPEN and READ "WVDogsNewHires.txt" as new_hires_file
+    OPEN and WRITE csv_filename as csv_file
+        SET header to ["Employee Name", "Job Title"]
+        WRITE header to csv_file
+
+        FOR each line in new_hires_file
+            REMOVE leading and trailing whitespaces from line
+            IF line contains a tab and does not start with "NAME"
+                SPLIT line into name and title
+                REMOVE leading and trailing whitespaces from title
+                WRITE [name, title] to csv_file
+
+OPEN and READ csv_filename as csv_file
+    FOR each row in csv_file
+        PRINT row
+
+SET today to current date and time
+SET date_dict to {"Month": formatted_month, "Day": day, "Year": year}
+
+OPEN and WRITE json_filename as json_file
+    WRITE date_dict to json_file
+
+PRINT "The JSON file has been written"
+PRINT formatted_date with a message

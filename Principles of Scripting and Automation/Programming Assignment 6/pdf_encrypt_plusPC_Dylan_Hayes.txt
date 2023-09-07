@@ -1,0 +1,36 @@
+CHANGE current working directory to "Pgm Asgn 6 Folder" if not already in it
+PRINT current working directory
+
+SET src_folder to the 'Source' folder path
+FIND and STORE all PDF files in src_folder
+
+PRINT all files in src_folder
+PRINT separator line
+
+PRINT "Processed folder: ./Destination/"
+PRINT "\n\tProcessed files in ./Destination/ folder:"
+
+INITIALIZE processing_times dictionary
+SET dest_folder to the 'Destination' folder path
+
+FOR each pdf_file in pdf_files
+    START timer
+    OPEN and READ pdf_file from src_folder
+        CREATE a new PdfWriter object
+        FOR each page in pdf_file
+            ADD page to PdfWriter object
+        ENCRYPT PdfWriter object with password "enigma"
+        WRITE encrypted PdfWriter object to dest_folder with "encrypted_" prefix
+    STOP timer
+    RECORD processing time and ADD to processing_times dictionary
+
+PRINT original filenames of PDFs in dest_folder
+
+WRITE processing_times to a JSON file named 'time_file.json'
+
+PRINT time data for each PDF from 'time_file.json'
+PRINT "The JSON time_file created."
+
+PRINT "*** File processing completed! ***"
+
+EXIT program

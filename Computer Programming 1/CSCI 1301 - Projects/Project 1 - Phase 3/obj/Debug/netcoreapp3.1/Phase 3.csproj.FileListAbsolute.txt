@@ -1,0 +1,14 @@
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.exe
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.deps.json
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.runtimeconfig.json
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.runtimeconfig.dev.json
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.dll
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\bin\Debug\netcoreapp3.1\Phase 3.pdb
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.csproj.AssemblyReference.cache
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.AssemblyInfoInputs.cache
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.AssemblyInfo.cs
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.csproj.CoreCompileInputs.cache
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.dll
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.pdb
+C:\Users\ddhay\OneDrive\Augusta Univeristy\Fall 2022\CSCI 1301\CSCI 1301 - Projects\Project 1 - Phase 3\obj\Debug\netcoreapp3.1\Phase 3.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+Justin Case	ID01	888-555-1212		J.Case@MtnDogs.com		$84,000		4-1-1900 
+Edsger Dijkstra	ID02	321.654.0987		dijkstraedsgar@algorithm.com	$82,500		01/08/1937
+MR Ducks		ID05	800-867-5309		a.fowl@zoo.org			$72,000		06/07/1996
+Izzy Forged	ID06	803-111-2222		blacksmith@homestead.com		$70,000		01-01-1999
+I Gno		ID04	987-654-3210		I.Gno@mtndogs.com		$75,900		10-31-1990 
+Justin Henry	ID10	800-555-1234 ext. 12	juhenry@augusta.edu		$56,000		05/19/2022
+Grace Hopper	ID07	123-456-7890		hopper_grace@usn.org		$68,900		1/1/2000
+Pink Panther	ID03	555-1234			Steve_Martin@FunnyGuy.nett	$80,000		08-14-1945 				
+Stan Tahl	ID08	555-0987 ext. 1		Stan.Tahl@home.co		$62,400		12/9/2017
+Teeny Won	ID09	706-555-1212 		BigHeart@home.org		$58,900		12/10/2021
+

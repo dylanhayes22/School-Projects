@@ -1,0 +1,56 @@
+SET chasHr to file WVDogsChasHR.txt
+SET auburHr to file WVDogsAuburnHR.txt
+SET combinedHr to file WVDogsCombinedHiring.txt
+SET desktopPath to users to desktop path
+
+PRINT The starting location is current directory of users
+
+IF the current directory makes desktopPath
+	PRINT Current directory is verified as desktop
+ELSE
+	PRINT HR files are on the Desktop. Changing directory to match.
+	change current directory to desktopPath
+	PRINT Current directory is verified as desktop
+	
+OPEN and READ file WVDogsChasHR.txt
+OPEN and READ file WVDogsAuburnHR.txt
+
+TRY
+    OPEN "WVDogsChasHR.txt" for reading as FILE1
+    OPEN "WVDogsAuburnHR.txt" for reading as FILE2
+    READ data from FILE1 and assign to data1
+    READ data from FILE2 and assign to data2
+    PRINT "Hiring files successfully opened. BEGINNING PROCESSING."
+EXCEPT FileNotFoundError
+    PRINT "One or both of the files could not be found."
+EXCEPT IOError
+    PRINT "There was an error opening one or both of the files."
+END TRY
+
+SET combinedData to the concatenation of chasContents and auburnContents
+SET sortedData to the result of sorting a list comprehension that iterates over each line in combinedData and removes leading/trailing whitespace from each line
+
+SET removedLines to a list comprehension that iterates over each line in sortedData and only includes lines that contain a semicolon
+SET sortedData to a list comprehension that iterates over each line in sortedData and only includes lines that do not contain a semicolon
+
+FOR each line in removedLines DO
+    PRINT SQL Detected and Removed: from the line
+
+PRINT Hiring files vaildated and written to WVDogsCombinedHiring.txt ready for processing.
+
+CLOSE file WVDogsChasHR.txt
+CLOSE file WVDogsAuburnHR.txt
+
+OPEN file WVDogsCombinedHiring.txt
+WRITE a header row to this file
+FOR each line in sortedData DO
+	WRITE the line to the file
+	
+PRINT ***** NEW EMPLOYEE INFORMATION *****
+
+PRINT formatted header row to the console
+FOR each line in sortedData DO
+    SPLIT the line into fields using the tab character as a delimiter
+    IF there are exactly 3 fields in the line THEN
+        EXTRACT and strip the employee name, job title, and pay/other compensation fields
+        PRINT the formatted fields to the console

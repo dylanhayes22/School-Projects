@@ -1,0 +1,52 @@
+PRINT *** Welcome to Regexinator Plus ***
+
+change current directory to PA4 on Desktop
+
+SET input_file to file given by user
+SET output_file to file given by user
+
+OPEN and READ input_file
+
+SET phone_regex to regex for finding phone numbers
+SET email_regex to regex for finding email addresses
+SET date_regex to regex for finding dates
+
+FIND phone_matches based on phone_regex
+FIND email_matches based on email_regex
+FIND date_matches based on date_regex
+
+PRINT "Harvested Phone Numbers:"
+IF phone_matches found:
+    FOR each match in phone_matches:
+        FORMAT and PRINT phone number
+ELSE:
+    PRINT "No matches found."
+
+PRINT "Harvested Email Addresses:"
+IF email_matches found:
+    FOR each match in email_matches:
+        PRINT email address
+ELSE:
+    PRINT "No matches found."
+
+PRINT "Harvested Dates:"
+IF date_matches found:
+    FOR each match in date_matches:
+        PRINT date
+ELSE:
+    PRINT "No matches found."
+
+IF phone_matches, email_matches, or date_matches found:
+    OPEN output_file for writing
+    WRITE "Harvested Phone Numbers:"
+    WRITE formatted phone numbers to output_file
+    WRITE "Harvested Email Addresses:"
+    WRITE email addresses to output_file
+    WRITE "Harvested Dates:"
+    WRITE dates to output_file
+    CLOSE output_file
+    PRINT "Results written to output_file."
+ELSE:
+    PRINT "No matches found."
+
+EXIT program

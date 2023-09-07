@@ -1,0 +1,29 @@
+SET data to clipboard data
+
+SET name_regex to regex for finding names
+SET phone_regex to regex for finding phone numbers
+SET data_regex to regex for finding dates
+
+SET matches to use re.finallall() to search data using the patterns defined by the regexes
+
+SET name_width to calculate the width of each column by finding the longest entry
+SET phone_width to calculate the width of each column by finding the longest entry
+SET date_width to calculate the width of each column by finding the longest entry
+
+if matches does not find valid information
+	print"No employee contact information was found. There may be a problem with the file."
+else	
+	SET output to nothing
+	
+	Iterate over each match
+		SET name to first entry in matches and format with left-justified and padded
+		SET phone to first second in matches and format with left-justified and padded
+		SET date to first third in matches and format with left-justified and padded
+		SET output to fomatted string
+		
+	copy output to clipboard
+	
+	print output
+	
+use sys.exit() to exit the program
+	

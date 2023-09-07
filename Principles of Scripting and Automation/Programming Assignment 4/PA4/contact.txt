@@ -1,0 +1,17 @@
+AIST 2120
+Programming Assignment 4
+Contact Information Input File (PA4 ContactInfo.txt)
+
+I can put as much stuff in this file as I want. The key is that the regexs pattern match the phone numbers and email addresses in this file. This file was updated on 6/14/2021.
+
+For instance, my office number is 706.729.2776. I never answer it. The telephone number for information is 800-555-1212.  I don't know if they answer it or not.
+
+The original author of this program has an Augusta University email address of sweldon@augusta.edu. He said, "I do respond to my emails. Eventually... Right?"
+
+The main email address for the School of Computer and Cyber Sciences is ccs@augusta.edu. The phone number is (706)729-2370.
+
+However, the email address for Snoopy's arch nemesis is RedBaron@Biplane.com.
+
+Also, did you know that 6/20/1863 was the day that West Virginia become a state?  Thanks to their secession from Virginia and Abraham Lincoln's cooperation.
+
+Happy Harvesting!

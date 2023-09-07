@@ -1,0 +1,12 @@
+Employee Name	Job Title	Salary or Other Comp.
+BB8			Waiter				Weekly WD-40
+Charlie Brown		Greeter				$10/hour
+Darth Vader		Any Job He Wants			Uh, his call
+Finn			Facilities Manager		$30/hour
+Franklin			Business Operations		$40/hour
+Julia Childs		Chef (and part-time spy)		$40/hour
+Linus			Musical Ambiance Manager		$30/hour
+Lucy			Counselor			$40/hour
+Luke			Security				$30/hour
+Rey			Jack of All Trades		$40/hour
+Snoopy			Pilot				$100/hour

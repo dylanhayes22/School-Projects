@@ -1,0 +1,7 @@
+Luke			Security				$30/hour
+Rey			Jack of All Trades		$40/hour
+Finn			Facilities Manager		$30/hour
+BB8			Waiter				Weekly WD-40
+SELECT * FROM salary_table WHERE salary = salary;
+Darth Vader		Any Job He Wants			Uh, his call
+Julia Childs		Chef (and part-time spy)		$40/hour
